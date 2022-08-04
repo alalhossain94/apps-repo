@@ -1,0 +1,111 @@
+/* all css start */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+ul,
+ol {
+    list-style-type: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+    padding: 0;
+    line-height: 0.8;
+}
+
+.clr {
+    clear: both;
+}
+
+.mr {
+    margin-right: 0 !important;
+}
+
+
+
+.container {
+    width: 994px;
+    margin: 0 auto;
+}
+
+/* all css end  */
+
+/* header part start  */
+#header {
+    background: none;
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+
+}
+
+.logo {
+    float: left;
+    width: 130px;
+    text-align: center;
+    padding-top: 25px;
+
+}
+
+.tag-line {
+    float: left;
+    width: 530px;
+    padding-top: 28px;
+    color: gainsboro;
+
+}
+
+.menu {
+    float: left;
+    width: 334px;
+    padding: 10px 0 7px;
+}
+
+.menu ul li a {
+    float: left;
+    padding: 12px 0 12px 22px;
+    color: white;
+    font-size: 16px;
+}
+
+/* header part end  */
+
+/* Bannar part start */
+#banner {
+    background: url(../images/bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.banner_part {
+    padding-top: 81px;
+}
+
+.banner_text {
+    float: left;
+    width: 736px;
+}
+
+.mobile_part {
+    float: left;
+    width: 258px;
+}
+
+/* Bannar part end */
