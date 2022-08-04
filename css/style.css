@@ -4,6 +4,8 @@
     padding: 0;
     box-sizing: border-box;
     outline: 0;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 a {
@@ -47,7 +49,7 @@ p {
 
 /* header part start  */
 #header {
-    background: none;
+    background: rgb(54, 71, 117);
     overflow: hidden;
     position: fixed;
     width: 100%;
@@ -73,12 +75,12 @@ p {
 .menu {
     float: left;
     width: 334px;
-    padding: 10px 0 7px;
+    padding: 10px 0 5px;
 }
 
 .menu ul li a {
     float: left;
-    padding: 12px 0 12px 22px;
+    padding: 12px 0 12px 15px;
     color: white;
     font-size: 16px;
 }
@@ -98,14 +100,45 @@ p {
     padding-top: 81px;
 }
 
+.banner_text h1 {
+    font-size: 50px;
+    color: white;
+    padding-bottom: 15px;
+}
+
+.banner_text h2 {
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    padding-bottom: 15px;
+
+}
+
+.banner_text p {
+    font-size: 20px;
+    color: whitesmoke;
+    padding-bottom: 15px;
+
+}
+
+
 .banner_text {
     float: left;
     width: 736px;
+    padding: 150px;
+}
+
+.icon {
+    font-size: 25px;
+    color: gainsboro
 }
 
 .mobile_part {
     float: left;
     width: 258px;
+    padding-top: 30px;
+
 }
+
+
 
 /* Bannar part end */
